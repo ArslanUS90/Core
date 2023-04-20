@@ -1,0 +1,28 @@
+{
+  "name": "arslanfarrukh/core",
+  "description": ""
+,
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "type":"magento2-module",
+  "version": "1.0.2",
+  "license":[
+    "proprietary"
+  ],
+  "authors":[
+    {
+      "name" : "Support",
+      "email" : "arslanfarrukh.us1990@gmail.com",
+      "role" : "Developer"
+    }
+  ],
+  "autoload":{
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ArslanFarrukh\\Core\\" : ""
+    }
+  }
+}
